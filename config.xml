@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.1catalogue.snowfairy" version="1.0.35" width="600" height="800" viewmodes="windowed fullscreen">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.onecatalogue.snowfairy" version="1.0.35" width="600" height="800" viewmodes="windowed fullscreen">
 <content src="index.html"/>
 <icon src="icon.png"/>
 <name short="snowfairy-mobile">snowfairy-mobile</name>
