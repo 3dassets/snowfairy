@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.onecatalogue.snowfairy" version="1.0.36" width="600" height="800" viewmodes="windowed fullscreen">
+<content src="index.html"/>
+<icon src="icon.png"/>
+<name short="snowfairy-mobile">snowfairy-mobile</name>
+<description></description>
+<author href="" email="">De-Art Graphic Studio</author>
+<licence>Copyright (c) 2018 De-Art Graphic Studio.</licence>
+<access origin="*" />
+<preference name="Fullscreen" value="true" />
+<preference name="BackgroundColor" value="0xffffffff"/>
+<preference name="Orientation" value="default" />
+<gap:plugin name="cordova-plugin-statusbar" source="npm" />
+<gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+<preference name="auto-hide-splash-screen" value="false" />
+<preference name="splashscreen" value="splash" />
+<gap:splash src="splash/splash-320x480.png" gap:platform="ios" width="320" height="480" />
+<gap:splash src="splash/splash-640x960.png" gap:platform="ios" width="640" height="960" />
+<gap:splash src="splash/splash-640x1136.png" gap:platform="ios" width="640" height="1136" />
+<gap:splash src="splash/splash-768x1024.png" gap:platform="ios" width="768" height="1024" />
+<gap:splash src="splash/splash-1024x768.png" gap:platform="ios" width="1024" height="768" />
+<gap:splash src="splash/splash-1536x2048.png" gap:platform="ios" width="1536" height="2048" />
+<gap:splash src="splash/splash-2048x1536.png" gap:platform="ios" width="2048" height="1536" />
+<gap:splash src="splash/splash-750x1334.png" gap:platform="ios" width="750" height="1334" />
+<gap:splash src="splash/splash-1242x2208.png" gap:platform="ios" width="1242" height="2208" />
+<gap:splash src="splash/splash-2208x1242.png" gap:platform="ios" width="2208" height="1242" />
+<gap:splash src="splash/splash-200.9.png" gap:platform="android" gap:density="ldpi" width="200" height="200" />
+<gap:splash src="splash/splash-320.9.png" gap:platform="android" gap:density="mdpi" width="320" height="320" />
+<gap:splash src="splash/splash-480.9.png" gap:platform="android" gap:density="hdpi" width="480" height="480" />
+<gap:splash src="splash/splash-720.9.png" gap:platform="android" gap:density="xhdpi" width="720" height="720" />
+<gap:splash src="splash/splash-768x1280.png" gap:platform="wp8" width="768" height="1280" />
+</widget>
